@@ -1,0 +1,7 @@
+I created this program mostly as a fun excercise to learn CoffeeScript. When comparing the JavaScript file against the COffeeScript I am really pleased by the much improved readability you get from the terser syntax that CofffeeScript provides.
+
+
+Resources:
+http://coffeescript.org/
+http://nodejs.org/
+http://en.wikipedia.org/wiki/Roman_numerals
