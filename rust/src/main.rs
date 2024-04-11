@@ -36,15 +36,4 @@ fn main() {
         }
         _ => println!("Please try again with the --help option"),
     }
-    println!("Hello from roman: MCMXCIV");
-    //let number = to_arabic(String::from("MCMXCIV"));
-    /*
-    println!("to arabic: {}", number);
-
-    println!("Year 2023: {}", to_roman(2023));
-    println!("Year 2024: {}", to_roman(2024));
-    println!("Born 1974: {}", to_roman(1974));
-
-     */
-    //println!("Year 2024: {}", to_roman(2024));
 }
