@@ -32,7 +32,10 @@ fn main() {
         Cli {
             convert: Some(Conversion::Roman { input }),
         } => {
-            println!("{}", to_arabic(input))
+            match to_arabic(input) {
+                Ok(value) => println!("{}", value),
+                Err(message) => eprintln!("Error: {}", message),
+            }
         }
         _ => println!("Please try again with the --help option"),
     }

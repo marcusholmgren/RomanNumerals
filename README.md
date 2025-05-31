@@ -1,31 +1,17 @@
-# Roman numbers converter
+# Roman Numeral Converter Project
 
-This is a simple program that converts Roman numbers to Arabic numbers and vice versa.
+This project provides tools to convert numbers between Roman numerals and standard Arabic numerals. It includes implementations in various languages.
 
-The first version of this program was written in CoffeeScript, but I decided to rewrite it in Rust to learn the language.
+The first version of this program was written in CoffeeScript, and a more recent version has been implemented in Rust.
 
-## Technologies
+## Implementations
 
-- [Rust](https://www.rust-lang.org)
+### Rust
 
-### How to run
+A command-line tool implemented in Rust for converting between Roman numerals and Arabic numbers. This version features robust parsing, validation of Roman numerals, and a comprehensive test suite.
 
-1. Install Rust by following the instructions on the [official website](https://www.rust-lang.org/tools/install).
-2. Navigate into the project folder `rust` and run the following command:
+For detailed instructions on building, running, and testing the Rust version, including CLI examples, please see the [Rust README](rust/README.md).
 
-Convert Roman to Arabic:
+---
 
-````sh
-```sh
-cargo run -- roman IV
-````
-
-Expected output is `4`.
-
-Convert Arabic to Roman:
-
-```sh
-cargo run -- arabic 2024
-```
-
-Expected output is `MMXXIV`.
+*The original README for the Rust version (which included basic Rust usage instructions) has been expanded and moved to `rust/README.md`.*
